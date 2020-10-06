@@ -64,6 +64,10 @@ while True:
         action = np.array([0.44, 0.0])
 
     ### AGREGAR MÁS COMPORTAMIENTOS ###
+    if key == ord('l'):
+        action = np.array([0.0, 0.5])
+    if key == ord('r'):
+        action = np.array([0.0,-0.5])
 
 
 
